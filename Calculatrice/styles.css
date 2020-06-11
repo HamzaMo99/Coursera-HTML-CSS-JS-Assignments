@@ -1,0 +1,76 @@
+ body{
+ 	background-color: #38CAD1;
+ }
+h1{
+	  color:red;
+      text-align:center;
+}
+ #h{
+         border: solid;
+          padding-right: 30px;
+          padding-left: 30px;
+          background-color:#00FF00;
+
+           
+  }
+
+ .main{
+ 	position:absolute;
+ 	top:50%;
+ 	left:50%;
+ 	transform: translateX(-50%) translateY(-50%);
+ }
+ .tableau{
+ 	text-align:center;
+ 	margin-left: center;
+
+ }
+
+.texte{
+	width:415px;
+	height:30px;
+	font-size: 25px;
+	padding:5px;
+	color:red;
+	text-align: center;
+	border:none;
+
+}
+
+ .button{
+    width:100px ;
+    height:40px;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin:2px;
+    cursor:pointer;
+    background: #607d8b;
+
+         }
+  @media (max-width: 992px) {
+
+  	#h{
+        position: relative;
+        top:-50%;
+        left:25%;
+
+           
+  }
+  .button{
+    width:200px ;
+    height:80px;
+    font-size: 50px;
+    margin:4px;
+   
+
+         }
+    .texte{
+	width:830px;
+	height:60px;
+	font-size: 50px;
+	padding:10px;
+
+}
+    
+   }
