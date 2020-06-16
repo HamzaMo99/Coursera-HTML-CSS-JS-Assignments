@@ -1,97 +1,110 @@
-
-.container-fluid{
-	margin: 0;
-	padding: 0;
+#header-nav
+{
+  background-color:   #A9A9A9;
+  border-radius: 0;
+  border:0;
 }
 
-.navbar{
-	border-radius: 0px;
-	background-color: rgba(0,0,0,0.8);
+#header-nav .navbar-brand
+{
+  font-size: 40px;
 }
 
-.navbar-brand{
-  font-size: 35px;
-  color: white;
-  padding-left: 25px;
+#header-nav .navbar-brand a
+{
+  color: black;
+  font-weight:  bold;
 }
 
-.navbar-brand:hover{
-	color: white;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
 
-.nav{
-	margin: 0;
-	padding: 0;
-}
-
-.navbar-nav{
-  font-size: 25px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-toggle{
-	border: 2px solid white;
-	margin-right: 25px;
-}
-
-.icon-bar{
-	background-color: white;
+#header-nav button{
+  background:black;
 }
 
 
-.main-title{
-  margin-bottom: 15px;
-  text-align: center;
-  color: #ff4532;
-  font-size: 50px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+
+
+#collapsable-nav li 
+{
+  background-color: pink;
+}
+
+#nav-list hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#nav-list a
+{
+  color: black;
+  size : 30px;
+  font-weight: bold;
+
+}
+
+#header-nav span.icon-bar{
+  background: blue;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: yellow;
+}
+
+
+
+
+div #chicken
+{
+  background: #A9A9A9;
+  text-align: left;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+div #beef
+{
+  background: #A9A9A9;
+  text-align: left;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+div #sushi
+{
+  background: #A9A9A9;
+  text-align: left;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+h3
+{
+  font-size: 1.4em;
   font-weight: bold;
 }
 
-li{
-	box-sizing: border-box;
-	width: 100%;
+h1
+{
+  
+  font-weight: bold;
+  margin-bottom : 20px; 
 }
 
-.menu-item{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
-	display: block;
-}
-
-.menu-item:hover{
-	background-color: rgba(0,0,0,0.9);
-	color: rgba(0,0,0,0.4);
-}
-
-
-
-.row{
-	margin: 20px;
-}
-
-.content-box{
-	margin: 20px;
-	width: auto;
-	height: auto;
-	color: black;
-	background-color: rgba(0,0,0,0.2);
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	padding: 20px;
-}
-
-.item-name{
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-#top{
-
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
 }
